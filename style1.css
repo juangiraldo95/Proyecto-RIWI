@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    font-family: sans-serif;
+    min-width: 1024px;
+    max-width: 1400px;
+    background-color: #ffffff;
+}
+.nav{
+    min-width: 1024px;
+    max-width: 1400px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    border-bottom: solid #dbdbdb 1px;
+    background: #ffffff;
+}
+.nav-cont{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 30px;
+}
+.cont-input{
+    height: 30px;
+    border: solid 1px #dbdbdb; 
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    padding: 5px;
+}
+.iconos .small-logo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.header{
+    width: 60%;
+    margin: auto;
+    transform: translateY(50px);
+    cursor: pointer;
+    padding: 20px 0;
+}
+.perfil-container{
+    display: flex;
+}
+.perfil-container img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.contenedor-cabecera{
+    margin-left: 100px;
+}
+.cabecera1{
+    width: 290px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.cabecera1 h1{
+    color: #616161;
+    font-weight: 100;
+    font-size: 26px;
+}
+.cabecera2{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.cabecera3 h2,
+.cabecera3 .p-ciencia,
+.cabecera3 .p-creador
+.cabecera3 .p-dev{
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.cabecera3 .p-ciencia{
+    color: #a2a2a2;
+}
+.cabecera3 .p-creador{
+    color: #a2a2a2;
+}
+.cabecera3 .p-dev{
+    color: #a2a2a2;
+}
+.historias{
+    width: 100%;
+    margin-top: 50px;
+    transform: translateX(-45px);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.historias_dev img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.linea{
+    width: 100%;
+    height: 3px;
+    margin: auto;
+    background-color: #dbdbdb;
+}
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+}
+main{
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+}
+.mainCont_grid{
+    display: grid;
+    grid-template-columns: repeat(3,32%);
+    grid-template-rows: repeat(5, auto);
+    gap: 2%;
+    height: auto;
+}
+.mainCont_grid div > img{
+    width: 100%;
+    cursor: pointer;
+}
+
